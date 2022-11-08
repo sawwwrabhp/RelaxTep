@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325582702809",
+    "project_id": "relaxtepfinal",
+    "storage_bucket": "relaxtepfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325582702809:android:d868d9cd7b13ca432916c8",
+        "android_client_info": {
+          "package_name": "com.example.relaxtep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325582702809-1fv0f92qama5gur1rkrv6rcnd119ic7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDvUaeT_G0FqKl8Fu_gJXmIYaVzNPC6Es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325582702809-1fv0f92qama5gur1rkrv6rcnd119ic7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

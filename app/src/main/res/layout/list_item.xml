@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/date_logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/calendar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/date"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="date"
+        app:layout_constraintLeft_toRightOf="@id/date_logo"
+        app:layout_constraintRight_toLeftOf="@id/foot_logo"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/foot_logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/feet"
+        app:layout_constraintLeft_toRightOf="@id/date"
+        app:layout_constraintRight_toLeftOf="@id/foot"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/foot"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="foot"
+        app:layout_constraintLeft_toRightOf="@id/foot_logo"
+        app:layout_constraintRight_toLeftOf="@id/time_logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/time_logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/calendar"
+        app:layout_constraintLeft_toRightOf="@id/foot"
+        app:layout_constraintRight_toLeftOf="@id/time"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="time"
+        app:layout_constraintLeft_toRightOf="@id/time_logo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
